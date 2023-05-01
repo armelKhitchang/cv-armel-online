@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ec9f32aa.css",
-    "main.js": "/static/js/main.9a618b29.js",
+    "main.js": "/static/js/main.dea08ac4.js",
     "static/js/787.491bd62f.chunk.js": "/static/js/787.491bd62f.chunk.js",
     "static/media/Armel_home2.jpg": "/static/media/Armel_home2.55b726eabf5b72641d62.jpg",
     "static/media/Armel_home.jpg": "/static/media/Armel_home.65b0a1e08e96e9f6861c.jpg",
@@ -9,11 +9,11 @@
     "index.html": "/index.html",
     "static/media/shape.svg": "/static/media/shape.615705d6eda69ae683e0.svg",
     "main.ec9f32aa.css.map": "/static/css/main.ec9f32aa.css.map",
-    "main.9a618b29.js.map": "/static/js/main.9a618b29.js.map",
+    "main.dea08ac4.js.map": "/static/js/main.dea08ac4.js.map",
     "787.491bd62f.chunk.js.map": "/static/js/787.491bd62f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ec9f32aa.css",
-    "static/js/main.9a618b29.js"
+    "static/js/main.dea08ac4.js"
   ]
 }
