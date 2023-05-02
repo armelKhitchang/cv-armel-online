@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.75c6ed8a.css",
-    "main.js": "/static/js/main.a0b4e587.js",
+    "main.js": "/static/js/main.b2199057.js",
     "static/js/787.491bd62f.chunk.js": "/static/js/787.491bd62f.chunk.js",
     "static/media/Armel_home2.jpg": "/static/media/Armel_home2.55b726eabf5b72641d62.jpg",
     "static/media/map.jpg": "/static/media/map.3e5949c9b6f7cd03bd31.jpg",
     "index.html": "/index.html",
     "static/media/shape.svg": "/static/media/shape.615705d6eda69ae683e0.svg",
     "main.75c6ed8a.css.map": "/static/css/main.75c6ed8a.css.map",
-    "main.a0b4e587.js.map": "/static/js/main.a0b4e587.js.map",
+    "main.b2199057.js.map": "/static/js/main.b2199057.js.map",
     "787.491bd62f.chunk.js.map": "/static/js/787.491bd62f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.75c6ed8a.css",
-    "static/js/main.a0b4e587.js"
+    "static/js/main.b2199057.js"
   ]
 }
