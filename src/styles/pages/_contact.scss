@@ -2,6 +2,7 @@
     background: $couleur-3;
     border-radius: $borderRadius;
     width: 100%;
+    min-height: $min-height;
     overflow: hidden;
     display: grid;
     grid-template-columns: 1fr;
@@ -16,7 +17,7 @@
       width: 100%;
       position: relative;
       background: $couleur-1;
-      height: 320px;
+      height: 340px;
   
       &:before {
         content: '';
@@ -31,7 +32,7 @@
         width: 100%;
         height: 100%;
         position: absolute;
-        top: 30px;
+        top: 30px; 
         background: url(../../media/shape.svg) no-repeat center /cover;
   
       }
@@ -39,19 +40,20 @@
     .contactBox {
       grid-area: 2;
       background: $couleur-5;
-      margin: 0 auto;
+      margin: 0 auto 0 auto;
       padding: 1rem 3rem;
-      z-index: 2;
+      z-index: 4;
       border-radius: $borderRadius;
-      box-shadow: 0 3px 10px #333;
+      box-shadow: 0 3px 10px #333; 
       width: 50%;
       min-width: 440px;
-      min-height: 250px; 
-      margin-top: 30%;
-  
+      min-height: 200px;  
+      margin-top: 35%;
+
+      
       h1 {
         text-align: center;
-        margin-top: 0.3rem;
+        margin-top: 0.1rem;
         position: relative;
         color: $couleur-2;
   
@@ -67,10 +69,10 @@
         }
       }
       ul {
-        height: 72%;
+        height: 50%;
         width: inherit;
         display: grid;
-        margin-top: 3.5rem;
+        margin-top: 2.5rem;
   
         li {
           position: relative;
@@ -101,10 +103,11 @@
     .socialNetwork {
       grid-area: 3;
       @include verticalCenter;
+      margin-top: 15%;
   
       ul {
         display: flex;
-        text-align: center;
+        text-align: center; 
         width: 100%;
         justify-content: space-around;
   
@@ -117,7 +120,7 @@
           padding: 0.7rem 0;
           box-shadow: $shadow;
           transform: scaleY(0);
-          transform-origin: center;
+          transform-origin: top;
           transition: .2s ease;
           transition: scale .1s;
   
@@ -133,8 +136,7 @@
         //ANIMATION
         @mixin networkAnim($timeout) {
           animation: pop 1s forwards;
-          animation-delay: $timeout;
-  
+          animation-delay: $timeout;  
         }
         @keyframes pop {
           to {
@@ -156,10 +158,27 @@
       }
     }
   }
+  @media screen and (max-width: 850px){
+    .contactContent {
+      .contactBox {
+        min-width:50% !important;  
+        margin-top: 40%;       
+      }
+      span {
+        font-size: .9rem !important;
+      }
+      h4 {
+        font-size: .9rem;
+      }
+    }
+  }
+
+
   @media screen and (max-width: 500px){
     .contactContent {
       .contactBox {
-        min-width: 100% !important;
+        min-width: 80% !important;  
+        margin-top: 80%;       
       }
       span {
         font-size: .9rem !important;

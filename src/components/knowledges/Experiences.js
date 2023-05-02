@@ -5,51 +5,45 @@ const Experiences = () => {
         <div className='experiences'>
             <h3>Experiences</h3>
             <div className='exp-1'>
-                <h4>Analyste programmeur </h4>
-                <h5>2008-2019</h5>
+                <h4>Administrateur systeme Centre de répartition</h4>
+                <h5><b>2014 – 2019  G.P.A.C (Groupement Professionnel des Acconiers du Cameroun) </b></h5><br/>
                 <ul>
                 <li>
-                    Développer, intégrer et tester des applications web et mobile
-                    à l’aide des technologies Java et le Big Data;
-                </li>
+                    - Administration du système Progiciel MUKANDA 
+                </li><br/>
                 <li>
-                    Administrer et analyser des bases de données structurées (Mysql, Postgres) 
-                    et des bases de données pouvant contenir des téraoctets de données 
-                    (Apache Cassandra, Mongodb);
-                </li>
+                    - Administration du module biométrie du système Delta rh
+                </li><br/>
                 <li>
-                    Développer des microservices à l’aide du framework Spring Boot 
-                    afin de développer des interfaces de  programmation (API) 
-                    exploitables par des clients web et mobile;
-                </li>
+                    - Produire les statistiques des affectations et embauches dockers des
+                      acconiers
+                </li><br/>
                 <li>                
-                    Mettre en production des applications web et mobile et assurer 
-                    leur maintenance;
+                   - Administration des bases données sur Oracle 10gr2 avec TOAD 
                 </li>
                 
                 </ul>
             </div>
             <div className='exp-2'>
-                <h4>Developpeur d'applications </h4>
-                <h5>2019-2021</h5>
+                <h4> Analyste programmeur Java</h4>
+                <h5><b>2009 – 2013 G.P.A.C (Groupement Professionnel des Acconiers du Cameroun) </b></h5><br/>
                 <ul>
                 <li>
-                    Développer, intégrer et tester des applications web et mobile
-                    à l’aide des technologies Java et le Big Data;
+                <b>Contexte du projet :</b> Mise sur pied et maintenance quotidienne du Progiciel 
+                    MUKANDA qui intègre les modules :
+
                 </li>
                 <li>
-                    Administrer et analyser des bases de données structurées (Mysql, Postgres) 
-                    et des bases de données pouvant contenir des téraoctets de données 
-                    (Apache Cassandra, Mongodb);
+                    - Gestion de l’hôpital (Hopital Management : HM) <br/>
+                    - Gestion de la pharmacie (Pharmacy Management : PM) : cas de la 
+                     pharmacie du GPAC.
                 </li>
                 <li>
-                    Développer des microservices à l’aide du framework Spring Boot 
-                    afin de développer des interfaces de  programmation (API) 
-                    exploitables par des clients web et mobile;
+                    - Gestion des Stocks (Stock Managment : SM) <br/>
+                    - Maintien de solutions logicielles Maison du GPAC.<br/>
                 </li>
-                <li>                
-                    Mettre en production des applications web et mobile et assurer 
-                    leur maintenance;
+                <li>   
+                    - Conduite et Assistance des projets de Migration et de mise à jour              
                 </li>
                 
                 </ul>
