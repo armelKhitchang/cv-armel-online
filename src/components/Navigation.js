@@ -17,10 +17,10 @@ const Navigation = () => {
                     </NavLink>
                   </li>
                   <li><NavLink  to="/competences">
-                        <i className='fas fa-cogs'></i><span>Knowledges</span>
+                        <i className='fas fa-cogs'></i><span>Compétences</span>
                     </NavLink>
                   </li>
-                 {/*  <li><NavLink  to="/portfolio" >
+                 { /* <li><NavLink  to="/portfolio" >
                         <i className='fa fa-briefcase'></i><span>Portfolio</span>
                     </NavLink>
                   </li> */}

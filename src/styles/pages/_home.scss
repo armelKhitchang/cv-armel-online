@@ -2,9 +2,8 @@
 
     .homeContent {
         background: linear-gradient(115deg, $couleur-1 50%, transparent 100%);
-        min-height: $minHeight;
-        width: 1000px;
-        min-height: 500px;
+        min-height: $min-height;
+        width: 100%; 
         border-radius: $borderRadius;
         position: relative;
         overflow: hidden;   
@@ -69,7 +68,7 @@
 @media screen and (max-width: 580px) {
     .homeContent{
         &:after{
-            background: url('../../media/Armel_home.jpg') no-repeat 50%/cover !important;
+            background: url('../../media/Armel_home2.jpg') no-repeat 50%/cover !important;
         }
 
         h1{
