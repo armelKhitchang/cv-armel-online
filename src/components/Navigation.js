@@ -6,7 +6,7 @@ const Navigation = () => {
         <div className='sidebar'>
         <div className='id'>
             <div className='idContent'>
-                <img src="./media/Armel2.jpg" alt = "picbill" />
+                <img src="./media/ArmelK.jpg" alt = "picbill" />
                 <h3>Armel Khitchang Tchoufa</h3>
             </div>
         </div>
@@ -32,7 +32,7 @@ const Navigation = () => {
             </div>
             <div className='socialNetwork'>
             <ul>
-            <li><a  href="https://cm.linkedin.com/in/armel-khitchang-tchoufa-a58a30182" target="_blank" 
+            <li><a  href="https://www.linkedin.com/in/armelkhitchang" target="_blank" 
                 rel='noopener noreferrer'> <i className="fab fa-linkedin"></i>
                 </a>
             </li>
@@ -40,8 +40,8 @@ const Navigation = () => {
                 rel='noopener noreferrer'> <i className="fab fa-github"></i>
                 </a>
             </li>
-            <li><a  href="https://www.google.com" target="_blank" 
-                rel='noopener noreferrer'> <i className="fab fa-twitter"></i>
+            <li><a  href="https://www.facebook.com" target="_blank" 
+                rel='noopener noreferrer'> <i className="fab fa-facebook"></i>
                 </a>
             </li>
             <li><a  href="https://codepen.io/Khifamel" target="_blank" 
